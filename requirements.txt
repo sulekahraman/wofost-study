@@ -1,0 +1,13 @@
+notebook
+seaborn
+numpy
+pandas
+nass
+pcse
+scipy
+scikit-learn
+pyyaml
+matplotlib
+geopandas
+statsmodels
+plotly
