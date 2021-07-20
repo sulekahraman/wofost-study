@@ -21,7 +21,7 @@ from scipy import spatial
 import pickle
 
 MIN_YEAR = 1981 #  NASA POWER has no weather data available before 1981
-
+SOIL_FILE  = os.path.abspath('default_data/soil.cab')
 #----------------------------------------------------------------------------
 # YIELD
 #----------------------------------------------------------------------------
@@ -204,9 +204,9 @@ def get_soil_row(soil_df, soil_id, prop=None):
         soil_row = soil_row[soil_row['PROP'] == prop].iloc[0]
     return soil_row
 
-def update_soil_params(soil_df, soil_row):
+def update_soil_params(soil_df, soil_row, default_soil_file=SOIL_FILE):
     # Default soil params
-    soild = CABOFileReader('default_data/soil.cab')
+    soild = CABOFileReader(default_soil_file)
     soil_cols = ['SMW', 'SMFCF', 'K0', 'SOPE', 'KSUB']
     for col in soil_cols:
         soild[col] = soil_row[col]
