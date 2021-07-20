@@ -12,3 +12,4 @@ geopandas
 statsmodels
 plotly
 openpyxl
+salib
