@@ -1,0 +1,114 @@
+VAR,MIN,MAX,VARTYPE,FILETYPE,DESCRIPTION
+AMAXTB,1,70,SD,CF,Maximum leaf CO2 assimilation rate as a function of development stage of the crop (-;kg/ha.hr).
+CFET,0.8,1.2,R,CF,Correction factor for evapotranspiration in relation to the reference crop.
+CLFILE,,,C,TD,Filename of the weather station.
+CONTAB,-8,2,SP,SF,10-log hydraulic conductivity as a function of pF (log(cm); log(cm/d)).
+CRAIRC,0.04,0.1,R,SF,Critical soil air content for aeration (cm_/cm_).
+CRFILE,,,C,TD,Filename of crop species or cultivar.
+CVL,0.6,0.76,R,CF,Conversion efficiency of assimilates into leaf (kg/kg).
+CVO,0.45,0.85,R,CF,Conversion efficiency of assimilates into storage organ (kg/kg).
+CVR,0.65,0.76,R,CF,Conversion efficiency of assimilates into root (kg/kg).
+CVS,0.63,0.76,R,CF,Conversion efficiency of assimilates into stem (kg/kg).
+DD,20,300,R,SD,Depth of drainage (cm).
+DEFLIM,-0.3,0,R,SF,Required moisture deficit for a deep seedbed (cm) (soil workability parameter).
+DEPNR,1,5,R,CF,Crop group number for soil water depletion.
+DLC,6,18,R,CF,Critical day length (photoperiod) (hr).
+DLO,6,18,R,CF,Optimum day length (photoperiod) (hr).
+DTSMTB,0,38,ST,CF,Daily increase in thermal time as function of average temperature (¡C.d).
+DVSI,0,0.5,R,CF,Initial development stage.
+DVSEND,1,2.5,R,CF,Development stage at harvest.
+EFFTB,0.4,0.5,ST,CF,Initial light-use efficiency of CO2 assimilation of single leaves ((kg/ha.hr)/(J/m2.s)) as function of mean daily temperature.
+FLTB,0,1,SD,CF,Fraction of above ground dry matter increase partitioned to leaves as a function of development stage (-; kg/kg).
+FOTB,0,1,SD,CF,Fraction of above ground dry matter increase partitioned to storage organs as a function of development stage (-; kg/kg).
+FRTB,0,1,SD,CF,Fraction of total dry matter increase partitioned to roots as a function of development stage (-; kg/kg).
+FSTB,0,1,SD,CF,Fraction of above ground dry matter increase partitioned to stems as a function of development stage (-; kg/kg).
+IAIRDU,0,1,I,CF,Presence of air ducts in roots (e.g. rice).
+IBAL,0,3,I,TD,Option for output summary water balance.
+IDAYEN,1,366,I,TD,Ultimate date of harvest (day of the year).
+IDEM,1,366,I,TD,Day of emergence (day of the year).
+IDESOW,1,366,I,TD,Earliest date of sowing (day of the year).
+IDLSOW,1,366,I,TD,Ultimate date of sowing (day of the year).
+IDRAIN,0,1,I,SD,Presence of drains.
+IDSL,0,1,I,CF,Factor on which development rate between development stage 0 and 1 depends (temperature)
+IDSOW,1,366,I,TD,Date of sowing (day of the year).
+IDURMX,1,366,I,TD,Maximum number of days from emergence to the end of the simulation.
+IENCHO,1,3,I,TD,Option to determine end of simulation (fixed end date
+IFUNRN,0,1,I,SD,Indicates whether non-infiltrating fraction of rain is a function of storm size.
+INYEAR,1,1000,I,TD,Number of years to simulate.
+INYRG,1,1000,I,TD,Number of runs with manipulated rain / number of rain years.
+IRNDAT,0,3,I,TD,Option for the use/selection of rainfall data.
+ISTCHO,0,2,I,TD,Options for the start of simulation (fixed emergence day
+ISYR,1,4000,I,TD,First year of simulation (year)
+ISYRR,1,4000,I,TD,First year of rainfall data (year)
+IWEATH,0,2,I,TD,Weather format
+IZT,0,1,I,SD,Influence of groundwater
+KBASE,0,100,R,SD,Basic supply of potassium by the unfertilized soil for one growing season of 120 days (kg/ha).
+KDIFTB,0.44,1,SD,CF,Extinction coefficient for diffuse visible light as function of development stage.
+KMAXSO,0.005,0.05,R,CF,Max. concentration of K in storage organs (kg/kg).
+KMAXVE,0.005,0.05,R,CF,Max. concentration of K in vegetative organs (kg/kg).
+KMINSO,0.002,0.018,R,CF,Min. concentration of K in storage organs (kg/kg).
+KMINVE,0.002,0.018,R,CF,Min. concentration of K in vegetative organs (kg/kg).
+KREC,0,1,R,SD,Apparent recovery of K fertilizer.
+KSUB,0.1,100,R,SF,Maximum percolation rate of water to subsoil (cm/d).
+K0,0.1,100,R,SF,Hydraulic conductivity of saturated soil (cm/d).
+LAIEM,0.0007,0.3,R,CF,Leaf area index at emergence (ha/ha).
+NBASE,0,100,R,SD,Basic supply of nitrogen by the unfertilized soil for one growing season of 120 days (kg/ha).
+NFIX,0,0.75,R,CF,Fraction of N uptake that originates from biological fixation (kg/kg).
+NMAXSO,0.009,0.056,R,CF,Max. concentration of N in storage organs (kg/kg).
+NMAXVE,0.009,0.046,R,CF,Max. concentration of N in vegetative organs (kg/kg).
+NMINSO,0.0022,0.035,R,CF,Min. concentration of N in storage organs (kg/kg).
+NMINVE,0.0022,0.018,R,CF,Min. concentration of N in vegetative organs (kg/kg).
+NOTINF,0,1,R,SD,Maximum fraction of rain not-infiltrating into the soil.
+NREC,0,1,R,SD,Apparent recovery of N fertilizer.
+PBASE,0,100,R,SD,Basic supply of phosphorus by the unfertilized soil for one growing season of 120 days (kg/ha).
+PERDL,0,0.1,R,CF,Max. relative death rate of leaves due to water stress (-; kg/kg.d).
+PMAXSO,0.0016,0.01,R,CF,Max. concentration of P in storage organs (kg/kg).
+PMAXVE,0.0016,0.01,R,CF,Max. concentration of P in vegetative organs (kg/kg).
+PMINSO,0.0007,0.04,R,CF,Min. concentration of P in storage organs (kg/kg).
+PMINVE,0.0003,0.002,R,CF,Min. concentration of P in vegetative organs (kg/kg).
+PRDEL,1,30,I,TD,Number of time steps between output lines (days).
+PREC,0,1,R,SD,Apparent recovery of P fertilizer
+Q10,1.5,2,R,CF,Relative change in respiration rate per 10¡C  temperature change.
+RAFILE,,,C,TD,Filename of the rainfall station.
+RDI,10,50,R,CF,Initial rooting depth (cm).
+RDMCR,50,400,R,CF,Max. rooting depth of mature crop (plant characteristic) (cm)
+RDMSOL,10,150,R,SD,Max. rooting depth allowed by soil (cm).
+RDRRTB,0,0.02,SD,CF,Relative death rate of roots as a function of development stage (-; kg/kg.d).
+RDRSTB,0,0.04,SD,CF,Relative death rate of stems as a function of development stage (-; kg/kg.d).
+RFSETB,0.25,1,SD,CF,Reduction factor for senescence as function of development stage.
+RGRLAI,0.007,0.5,R,CF,Max. relative increase in LAI (ha/ha.d).
+RML,0.027,0.03,R,CF,Relative maintenance respiration rate leaves (kg(CH2O)/kg.d).
+RMO,0.003,0.017,R,CF,Relative maintenance respiration rate storage organs (kg(CH2O)/kg.d).
+RMR,0.01,0.015,R,CF,Relative maintenance respiration rate roots (kg(CH2O)/kg.d).
+RMS,0.015,0.02,R,CF,Relative maintenance respiration rate stems (kg(CH2O/kg.d)).
+RRI,0,3,R,CF,Max. daily increase in rooting depth (cm/d).
+SLATB,0.0007,0.0042,SD,CF,Specific leaf area as a function of development stage (-; ha/kg).
+SMFCF,0.05,0.74,R,SF,Soil moisture content at field capacity (cm_/cm_).
+SMLIM,0.01,0.9,R,SD,Maximum moisture content in topsoil (cm).
+SMTAB,0.01,0.9,SP,SF,Soil water retention; vol. moisture content. (second column) as function of pF (log(cm); cm_/cm_) (first column).
+SMW,0.01,0.35,R,SF,Soil moisture content at wilting point (cm_/cm_).
+SM0,0.3,0.9,R,SF,Soil moisture content of saturated soil (cm_/cm_).
+SOFILE,,,C,SD,Filename of the soil type.
+SOPE,0.1,100,R,SF,Maximum percolation rate root zone (cm/d)
+SPA,0.0008,0.003,R,CF,Specific pod area (ha/kg).
+SPADS,0.02,0.8,R,SF,1st topsoil seepage parameter deep seedbed (soil workability parameter)
+SPAN,17,50,R,CF,Life span of leaves growing at 35¡C (days).
+SPASS,0.05,0.9,R,SF,1st topsoil seepage parameter shallow seedbed (soil workability parameter)
+SPODS,0.02,0.04,R,SF,2nd topsoil seepage parameter deep seedbed (soil workability parameter)
+SPOSS,0.03,0.07,R,SF,2nd topsoil seepage parameter shallow seedbed (soil workability parameter)
+SSATB,0.0003,0.0003,SD,CF,Specific stem area (ha/kg) as a function of development stage.
+SSI,0,20,R,SD,Initial surface storage
+SSMAX,0,20,R,SD,Maximum surface storage capacity (cm water)
+TBASE,-10,10,R,CF,Lower threshold temperature for ageing of leaves (¡C).
+TBASEM,-10,8,R,CF,Lower threshold temperature for emergence(¡C).
+TDWI,0.5,300,R,CF,Initial total crop dry weight (kg/ha).
+TEFFMX,18,32,R,CF,Max. effective temp. for emergence (¡C).
+TMNFTB,0,1,ST,CF,Reduction factor of gross assimilation rate as function of low min. temperature (¡C;-).
+TMPFTB,0,1,ST,CF,Reduction factor of AMAX as function of average temperature (¡C).
+TSUMEM,0,170,R,CF,Thermal time from sowing to emergence (¡C.d).
+TSUM1,150,1050,R,CF,Thermal time from emergence to anthesis (¡C.d).
+TSUM2,600,1550,R,CF,Thermal time from anthesis to maturity (¡C.d).
+WAV,0,45,R,SD,Initial amount of available water in total rootable soil (moisture content above wilting point) (cm).
+YZERO,0,400,R,CF,Max. amount of vegetative organs at zero yield (kg/ha) (to calculate nutrient uptake).
+ZTI,0,999,R,SD,Initial depth of groundwater table (cm).
+ISDAY,1,366,I,TD,Start day simulation water balance.
