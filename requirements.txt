@@ -11,3 +11,4 @@ matplotlib
 geopandas
 statsmodels
 plotly
+openpyxl
